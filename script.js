@@ -4,9 +4,9 @@ let num = 266219;
 
 console.log(num.toString().split('').reduce((res, item) => item * res, 1));
 //вариант 2
-let a = [...num.toString().split('')].map(Number);//разбиваем число на элементы (number ,а не string)
+const digits = [...num.toString().split('')].map(Number);//разбиваем число на элементы (number ,а не string)
 let result = 1;
-a.forEach(function (elem) {
+digits.forEach(function (elem) {
     result *= elem;
 });
 console.log(result);
