@@ -9,7 +9,7 @@ const myFunc = (str) => {
         console.log(str);
         let cutStr = str.slice(0, 30);
         if (str.length > 30) {
-            cutStr = cutStr += "...";
+            cutStr += "..."
         }
         console.log(cutStr);
     }
