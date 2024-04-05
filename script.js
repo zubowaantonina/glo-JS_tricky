@@ -5,7 +5,7 @@
 
 const arr = ['325', '26', '755', '104', '47', '789', '377'];
 
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < arr.length; i++) {
   if (arr[i].startsWith('2') || arr[i].startsWith('4')) {
     console.log(arr[i]);
   }
